@@ -256,9 +256,6 @@ layer_0/tile_data = PackedInt32Array(-65549, 2, 0, -13, 2, 1, -65548, 65538, 0, 
 layer_1/name = "Mid"
 layer_1/tile_data = PackedInt32Array(65529, 0, 0, 65530, 65536, 0, 65531, 131072, 0, 65532, 196608, 0, 65533, 262144, 0, 65534, 327680, 0, 65535, 0, 0, 0, 65536, 0, 1, 131072, 0, 2, 196608, 0, 3, 0, 0, 4, 65536, 0, 5, 131072, 0, 6, 196608, 0, 7, 262144, 0, 8, 0, 0, 9, 65536, 0, 10, 0, 0, 11, 65536, 0, 12, 131072, 0, 13, 196608, 0, 14, 262144, 0, 15, 327680, 0, 16, 327680, 0, 65523, 0, 0, 65524, 65536, 0, 65525, 131072, 0, 65526, 196608, 0, 65527, 262144, 0, 65528, 327680, 0, 131059, 0, 1, 131060, 65536, 1, 131061, 131072, 1, 131062, 196608, 1, 131063, 262144, 1, 131064, 327680, 1, 131065, 0, 1, 131066, 65536, 1, 131067, 131072, 1, 131068, 196608, 1, 131069, 262144, 1, 131070, 327680, 1, 131071, 0, 1, 65536, 65536, 1, 65537, 131072, 1, 65538, 196608, 1, 65539, 262144, 1, 65540, 327680, 1, 65541, 0, 1, 65542, 65536, 1, 65543, 131072, 1, 65544, 196608, 1, 65545, 262144, 1, 65546, 327680, 1, 65547, 0, 1, 65548, 65536, 1, 65549, 131072, 1, 65550, 196608, 1, 65551, 262144, 1, 65552, 327680, 1, 196595, 0, 1, 196596, 65536, 1, 196597, 131072, 1, 196598, 196608, 1, 196599, 262144, 1, 196600, 327680, 1, 196601, 0, 1, 196602, 65536, 1, 196603, 131072, 1, 196604, 196608, 1, 196605, 262144, 1, 196606, 327680, 1, 196607, 0, 1, 131072, 65536, 1, 131073, 131072, 1, 131074, 196608, 1, 131075, 262144, 1, 131076, 327680, 1, 131077, 0, 1, 131078, 65536, 1, 131079, 131072, 1, 131080, 196608, 1, 131081, 262144, 1, 131082, 327680, 1, 131083, 0, 1, 131084, 65536, 1, 131085, 131072, 1, 131086, 196608, 1, 131087, 262144, 1, 131088, 327680, 1, 262131, 0, 1, 262132, 65536, 1, 262133, 131072, 1, 262134, 196608, 1, 262135, 262144, 1, 262136, 327680, 1, 262137, 0, 1, 262138, 65536, 1, 262139, 131072, 1, 262140, 196608, 1, 262141, 262144, 1, 262142, 327680, 1, 262143, 0, 1, 196608, 65536, 1, 196609, 131072, 1, 196610, 196608, 1, 196611, 262144, 1, 196612, 327680, 1, 196613, 0, 1, 196614, 65536, 1, 196615, 131072, 1, 196616, 196608, 1, 196617, 262144, 1, 196618, 327680, 1, 196619, 0, 1, 196620, 65536, 1, 196621, 131072, 1, 196622, 196608, 1, 196623, 262144, 1, 196624, 327680, 1)
 
-[node name="Fish1" parent="." instance=ExtResource("3_nef71")]
-position = Vector2(-43, 26)
-
 [node name="WorldBorders" type="Node" parent="."]
 
 [node name="WallLeft" type="StaticBody2D" parent="WorldBorders"]
@@ -272,3 +269,50 @@ shape = SubResource("WorldBoundaryShape2D_ny7c0")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBorders/WallRight"]
 position = Vector2(275, -4)
 shape = SubResource("WorldBoundaryShape2D_03shd")
+
+[node name="Fishes" type="Node" parent="."]
+
+[node name="Fish1" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(-43, 26)
+
+[node name="Fish2" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(-13, 40)
+
+[node name="Fish3" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(-13, 28)
+
+[node name="Fish4" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(-42, 54)
+
+[node name="Fish5" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(-157, 61)
+
+[node name="Fish8" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(-125, 21)
+
+[node name="Fish9" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(33, 57)
+
+[node name="Fish10" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(192, 30)
+
+[node name="Fish11" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(218, 58)
+
+[node name="Fish14" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(219, 44)
+
+[node name="Fish15" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(248, 50)
+
+[node name="Fish12" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(234, 26)
+
+[node name="Fish13" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(234, 26)
+
+[node name="Fish6" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(-161, 28)
+
+[node name="Fish7" parent="Fishes" instance=ExtResource("3_nef71")]
+position = Vector2(-161, 28)

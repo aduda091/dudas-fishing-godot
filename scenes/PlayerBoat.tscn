@@ -122,6 +122,7 @@ texture = ExtResource("1_2ejac")
 shape = SubResource("RectangleShape2D_2vq68")
 
 [node name="Mateo" type="AnimatedSprite2D" parent="."]
+z_index = 2
 position = Vector2(0, -26)
 sprite_frames = SubResource("SpriteFrames_0vfyv")
 animation = &"idle"
